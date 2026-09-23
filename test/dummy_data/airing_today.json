@@ -1,0 +1,19 @@
+{
+    "results": [
+        {
+            "backdrop_path": "/muth4OYamQXd41YSpV5zjmgKycF.jpg",
+            "genre_ids": [18,80],
+            "id": 1396,
+            "name": "Breaking Bad",
+            "origin_country": ["US"],
+            "original_language": "en",
+            "original_name": "Breaking Bad",
+            "overview": "Breaking Bad overview",
+            "popularity": 300.0,
+            "poster_path": "/ztkUQFLlC19CCMYHWiY1z3K1ov.jpg",
+            "first_air_date": "2008-01-20",
+            "vote_average": 8.8,
+            "vote_count": 1200
+        }
+    ]
+}
