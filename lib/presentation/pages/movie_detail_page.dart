@@ -26,10 +26,10 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
   void initState() {
     super.initState();
     Future.microtask(() {
-      Provider.of<MovieDetailNotifier>(
+      Provider.of<MovieDetailBloc>(
         context,
         listen: false,
-      ).fetchMovieDetail(widget.id);
+      ).add(FetchMovieDetail(widget.id));
       Provider.of<MovieDetailNotifier>(
         context,
         listen: false,
